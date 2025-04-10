@@ -1,0 +1,5 @@
+Flask
+python-dotenv
+smtplib3
+email-validator
+whois

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>SE Framework Dashboard</title>
+    <style>
+        body { font-family: Arial; padding: 40px; background: #f4f4f4; }
+        .log-box { background: #fff; padding: 20px; border: 1px solid #ddd; max-width: 800px; margin: auto; }
+        h2 { text-align: center; }
+        pre { background: #eee; padding: 15px; }
+    </style>
+</head>
+<body>
+    <div class="log-box">
+        <h2>Harvested Credentials</h2>
+        <pre>
+{% for line in creds %}
+{{ line.strip() }}
+{% endfor %}
+        </pre>
+    </div>
+</body>
+</html>
