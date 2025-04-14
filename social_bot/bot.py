@@ -1,4 +1,4 @@
-from prompts import generate_prompt
+from .prompts import generate_prompt
 import time
 
 def run_social_bot():

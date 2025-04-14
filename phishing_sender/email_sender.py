@@ -10,6 +10,8 @@ SMTP_SERVER = os.getenv("SMTP_SERVER")
 SMTP_USER = os.getenv("SMTP_USER")
 SMTP_PASS = os.getenv("SMTP_PASS")
 
+print(SMTP_PASS, SMTP_SERVER, SMTP_USER)
+
 def send_phishing_email(to_email, subject, html_content):
     print(f"[+] Sending phishing email to: {to_email}")
 
