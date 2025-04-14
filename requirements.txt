@@ -1,5 +1,5 @@
 Flask
 python-dotenv
-smtplib3
+secure-smtplib
 email-validator
 whois
